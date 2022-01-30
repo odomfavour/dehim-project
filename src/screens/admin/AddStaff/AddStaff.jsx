@@ -21,7 +21,7 @@ const AddStaff = () => {
                     <header className="d-flex align-items-center justify-content-between pb-2">
                         <h5 className="page-name">Staff Registration Form</h5>
                         <div className='d-flex justify-content-between align-items-center flex-md-row flex-column'>
-                            <a href="#" className='me-md-3 me-0'>View All Staffs</a>
+                            <a href="#view" className='me-md-3 me-0'>View All Staffs</a>
                             <button className="btn btn-warning"> + Add Staff</button>
                         </div>
                     </header>

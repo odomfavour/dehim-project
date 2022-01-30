@@ -1,7 +1,6 @@
 import React from 'react';
 import './testimonial.css'
 import person1 from '../../images/person1.png'
-import nameBase from '../../images/person-id-base.png'
 
 const testimonials = () => {
     return (
