@@ -9,7 +9,7 @@ const AdminDashboardWrapper = ({ children }) => {
       <main className='dashboard-container'>
         <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
           <div className="container-fluid">
-            <a className="navbar-brand" href="#">Hospital name</a>
+            <a className="navbar-brand" href="#home">Hospital name</a>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" onClick={handleMenu}>
               <span className="navbar-toggler-icon"></span>
             </button>
@@ -31,38 +31,38 @@ const AdminDashboardWrapper = ({ children }) => {
               <hr />
               <ul className="nav nav-pills flex-column mb-auto">
                 <li className="nav-item">
-                  <a href="#" className="nav-link active" aria-current="page">
+                  <a href="#profie" className="nav-link active" aria-current="page">
                     <svg className="bi me-2" width="16" height="16"></svg>
                     Profile
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a href="#" className="nav-link text-white">
+                  <a href="#reporting" className="nav-link text-white">
                     <svg className="bi me-2" width="16" height="16"></svg>
                     Reporting
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a href="#" className="nav-link text-white">
+                  <a href="#register" className="nav-link text-white">
                     <svg className="bi me-2" width="16" height="16"></svg>
                     Register Staff
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a href="#" className="nav-link text-white">
+                  <a href="#clinic" className="nav-link text-white">
                     <svg className="bi me-2" width="16" height="16"></svg>
                     Set Up Clinic
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a href="#" className="nav-link text-white">
+                  <a href="#customers" className="nav-link text-white">
                     <svg className="bi me-2" width="16" height="16"></svg>
                     Customers
                   </a>
                 </li>
               </ul>
               <hr />
-              <div className="dropdown">
+              {/* <div className="dropdown">
                 <a href="#" className="d-flex align-items-center text-white text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
                   <img src="https://github.com/mdo.png" alt="" width="32" height="32" className="rounded-circle me-2" />
                   <strong>mdo</strong>
@@ -74,7 +74,7 @@ const AdminDashboardWrapper = ({ children }) => {
                   <li><hr className="dropdown-divider" /></li>
                   <li><a className="dropdown-item" href="#">Sign out</a></li>
                 </ul>
-              </div>
+              </div> */}
             </div>
           </div>
           </div>
@@ -88,38 +88,38 @@ const AdminDashboardWrapper = ({ children }) => {
               <hr />
               <ul className="nav nav-pills flex-column mb-auto">
                 <li className="nav-item">
-                  <a href="#" className="nav-link active" aria-current="page">
+                  <a href="#profile" className="nav-link active" aria-current="page">
                     <svg className="bi me-2" width="16" height="16"></svg>
                     Profile
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a href="#" className="nav-link text-white">
+                  <a href="#reporting" className="nav-link text-white">
                     <svg className="bi me-2" width="16" height="16"></svg>
                     Reporting
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a href="#" className="nav-link text-white">
+                  <a href="#register" className="nav-link text-white">
                     <svg className="bi me-2" width="16" height="16"></svg>
                     Register Staff
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a href="#" className="nav-link text-white">
+                  <a href="#clinic" className="nav-link text-white">
                     <svg className="bi me-2" width="16" height="16"></svg>
                     Set Up Clinic
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a href="#" className="nav-link text-white">
+                  <a href="#customer" className="nav-link text-white">
                     <svg className="bi me-2" width="16" height="16"></svg>
                     Customers
                   </a>
                 </li>
               </ul>
               <hr />
-              <div className="dropdown">
+              {/* <div className="dropdown">
                 <a href="#" className="d-flex align-items-center text-white text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
                   <img src="https://github.com/mdo.png" alt="" width="32" height="32" className="rounded-circle me-2" />
                   <strong>mdo</strong>
@@ -131,7 +131,7 @@ const AdminDashboardWrapper = ({ children }) => {
                   <li><hr className="dropdown-divider" /></li>
                   <li><a className="dropdown-item" href="#">Sign out</a></li>
                 </ul>
-              </div>
+              </div> */}
             </div>
           </div>): (
                 ""

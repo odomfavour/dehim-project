@@ -15,10 +15,10 @@ const Footer = () => {
             <div className="col-md-2">
               <h4>Company</h4>
               <ul className='other-links'>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Privacy Policy</a></li>
-                <li><a href="#">FAQS</a></li>
-                <li><a href="#">Testimonials</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#prvacy">Privacy Policy</a></li>
+                <li><a href="#faq">FAQS</a></li>
+                <li><a href="#testimonial">Testimonials</a></li>
               </ul>
             </div>
             <div className="col-md-3">
@@ -27,13 +27,13 @@ const Footer = () => {
               <p>Medichub@gmail.com</p>
               <p>0802-3456-789</p>
               <ul className='social-icons d-flex justify-content-between align-items-center'>
-                <li><a href="">
+                <li><a href="#facebook">
                   <i class="fab fa-facebook-square"></i>
                 </a></li>
-                <li><a href="">
+                <li><a href="#twitter">
                   <i class="fab fa-twitter-square"></i>
                 </a></li>
-                <li><a href="">
+                <li><a href="#twitter">
                   <i class="fab fa-twitter-square"></i>
                 </a></li>
               </ul>
