@@ -1,0 +1,26 @@
+.hero-section {
+    padding: 100px 0;
+}
+
+.hero-text {
+    margin-top: 200px;
+}
+
+@media (max-width: 426px) {
+    .hero-text {
+        margin-top: 40px;
+    }
+
+    .hero-image-box {
+        order: 1;
+    }
+
+    .hero-text-box {
+        order: 2;
+    }
+
+    .hero-text h1 {
+        text-align: center;
+    }
+
+}

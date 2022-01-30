@@ -1,0 +1,13 @@
+.why-section {
+    padding-bottom: 100px;
+}
+
+.why-text {
+    margin-top: 200px;
+}
+
+@media (max-width: 426px) {
+    .why-text {
+        margin-top: 40px;
+    }
+}

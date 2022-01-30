@@ -1,0 +1,5 @@
+.blank-section {
+    min-height: 100vh;
+    background: url(../images/auth-bg.png) #252349;
+    background-size: cover;
+}

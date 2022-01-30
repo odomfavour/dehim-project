@@ -1,0 +1,52 @@
+.suite-section {
+    padding-bottom: 100px;
+    position: relative;
+}
+
+.overview-text {
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.overview-num-text {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.one, .two, .three, .four {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.three {
+    position: absolute;
+    top: 280px;
+}
+
+.four {
+    position: absolute;
+    top: 400px;
+}
+
+.one {
+    position: absolute;
+    top: 280px;
+    right: 315px;
+}
+
+.two {
+    position: absolute;
+    top: 400px;
+    right: 300px;
+}
+
+@media (max-width: 426px) {
+    .overview-text {
+        width: 90%;
+    }
+
+    .one, .two, .three, .four {
+        position: static;
+    }
+}

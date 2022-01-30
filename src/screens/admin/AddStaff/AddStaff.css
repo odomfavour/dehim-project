@@ -1,0 +1,7 @@
+.staff-reg-section header {
+    border-bottom: 3px solid rgba(229, 229, 229, 0.5);
+}
+
+.staff-reg-section header a{
+    text-decoration: none;
+}
